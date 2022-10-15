@@ -5,6 +5,7 @@ body {
     /*line-height: 1.75;*/
 }
 
+/* Region : NavBar */
 #mainNavbar {
     background: #ffffff;
     font-size: 0.7em;
@@ -21,10 +22,45 @@ body {
 #mainNavbar .navbar-brand{
     font-weight: 700;
 }
+/* EndRegion : NavBar */
+
+/* Region : General */
+a{
+    color: #3c3b3b;
+}
+
+a :hover{
+    color: #2e59ba;;
+}
+/* EndRegion : General */
+
+/* Region : SideBar */
+.side-bar{
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
 
 .img-fluid {
 	width: 10em;
 	border-radius: 50%;
-	display: block;
-			
 }
+
+.intro h2{
+    color: #3c3b3b;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.blurb h2{
+    font-size: 0.9em;
+    font-weight: 700;
+    /* margin: 0 0 (_size(element-margin) * 0.75) 0; */
+}
+
+.blurb p{
+    font-size: 0.8em;
+}
+/* EndRegion : SideBar */
