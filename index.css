@@ -1,8 +1,8 @@
 body {
     background: #f4f4f4;
-    /* font-family: 'Source Sans Pro', Helvetica, sans-serif; */
-    font-size:14pt;
-    /*line-height: 1.75; */
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
+    font-size: 14pt;
+    /*line-height: 1.75;*/
 }
 
 #mainNavbar {
@@ -11,10 +11,6 @@ body {
     letter-spacing: 0.25em;
     text-transform: uppercase;
     font-weight: 400;
-    
-}
-
-#mainNavbar .navbar-link{
     color: #3c3b3b;
 }
 
@@ -23,6 +19,12 @@ body {
 }
 
 #mainNavbar .navbar-brand{
-    color:#3c3b3b;
     font-weight: 700;
+}
+
+.img-fluid {
+	width: 10em;
+	border-radius: 50%;
+	display: block;
+			
 }
