@@ -22,7 +22,7 @@ body {
 
 #mainNavbar .navbar-brand{
     padding: 0.5em;
-    font-weight: 700;
+    font-weight: 900;
 }
 /* EndRegion : NavBar */
 
@@ -96,6 +96,7 @@ h6 {
 .card-header{
     background: #ffffff;
     color: #3c3b3b;
+    padding: 1em;
 }
 .card{
     background: #ffffff;
