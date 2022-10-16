@@ -11,12 +11,14 @@ const sts = document.querySelector(".sts");
 const stats = document.querySelector("#stats");
 const fenildesai = document.querySelector("#fenildesai");
 
-about.style.display = "none";
-resume.style.display = "none";
-projects.style.display = "none";
-contact.style.display = "none";
-stats.style.display = "none";
-fenildesai.style.display = "flex";
+const active = document.querySelector(".active");
+active.style.display = "flex";
+// about.style.display = "none";
+// resume.style.display = "none";
+// projects.style.display = "none";
+// contact.style.display = "none";
+// stats.style.display = "none";
+// fenildesai.style.display = "flex";
 
 me.addEventListener('click', function(){
     about.style.display = "none";

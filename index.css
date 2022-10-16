@@ -21,6 +21,7 @@ body {
 }
 
 #mainNavbar .navbar-brand{
+    padding: 0.5em;
     font-weight: 700;
 }
 /* EndRegion : NavBar */
@@ -34,8 +35,33 @@ a :hover{
     color: #2e59ba;;
 }
 
-h2 {
+h1,h2,h3,h4,h5,h6 {
     font-family: 'Raleway', Helvetica, sans-serif;
+    color: #3c3b3b;
+    line-height: 1.65;
+    font-weight: 900;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.1em;
+}
+
+h3 {
+    font-size: 0.9em;
+}
+
+h4 {
+    font-size: 0.7em;
+}
+
+h5 {
+    font-size: 0.7em;
+}
+
+h6 {
+    font-size: 0.7em;
 }
 
 .container-fluid {
@@ -57,31 +83,22 @@ h2 {
 	border-radius: 50%;
 }
 
-.intro h2{
-    color: #3c3b3b;
-    letter-spacing: 0.25em;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-
-.blurb h2{
-    font-size: 0.9em;
-    font-weight: 700;
-    /* margin: 0 0 (_size(element-margin) * 0.75) 0; */
-}
-
-.blurb p{
+.blurb p, .intro p{
+    text-align: justify;
     font-size: 0.8em;
 }
 /* EndRegion : SideBar */
 
 /*Region : Fenildesai*/
+.card-header{
+    background: #ffffff;
+    color: #3c3b3b;
+}
 .card{
     background: #ffffff;
     border: solid 1px rgba(160,160,160,0.3);
     position: relative;
     display: flex;
     margin: 1em;
-    padding: 1em;
 }
 /*EndRegion : Fenildesai*/
