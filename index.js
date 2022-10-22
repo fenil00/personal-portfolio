@@ -11,8 +11,6 @@ const sts = document.querySelector(".sts");
 const stats = document.querySelector("#stats");
 const fenildesai = document.querySelector("#fenildesai");
 
-const active = document.querySelector(".active");
-active.style.display = "flex";
 // about.style.display = "none";
 // resume.style.display = "none";
 // projects.style.display = "none";
@@ -36,6 +34,7 @@ abt.addEventListener('click', function(){
     contact.style.display = "none";
     stats.style.display = "none";
     fenildesai.style.display = "none";
+
 });
 
 rsm.addEventListener('click', function(){

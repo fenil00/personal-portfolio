@@ -104,5 +104,6 @@ h6 {
     position: relative;
     display: flex;
     margin: 1em;
+    text-align: justify;
 }
 /*EndRegion : Fenildesai*/
