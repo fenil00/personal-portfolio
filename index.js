@@ -34,7 +34,9 @@ abt.addEventListener('click', function(){
     contact.style.display = "none";
     stats.style.display = "none";
     fenildesai.style.display = "none";
-
+        //jquery code goes here....        
+        let x = $('#about').load("pages/me.html");
+        console.log(x);
 });
 
 rsm.addEventListener('click', function(){
