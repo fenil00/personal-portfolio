@@ -32,7 +32,7 @@ a{
 }
 
 a :hover{
-    color: #2e59ba;;
+    color: #2e59ba;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -74,6 +74,22 @@ p, li{
 .container-fluid {
     padding: 0;
 }
+
+.icons {
+    padding: 0 1em 1em 0;
+}
+.icons a {
+    text-decoration: none;
+}
+
+svg {
+    font-size: 0.8em;
+    margin: 0 1em 1em 1em;
+    fill: #3c3b3b;
+} 
+svg:hover, .icons:hover {
+    fill: #2e59ba;
+}
 /* EndRegion : General */
 
 /* Region : SideBar */
@@ -94,6 +110,10 @@ p, li{
     text-align: justify;
     font-size: 0.8em;
 }
+
+.blurb svg  {
+    margin: 0 1em 1em 0;
+}
 /* EndRegion : SideBar */
 
 /*Region : Fenildesai*/
@@ -111,3 +131,10 @@ p, li{
     text-align: justify;
 }
 /*EndRegion : Fenildesai*/
+
+@media (max-width: 600px) {
+    .row {
+        flex-direction: column-reverse;
+    
+    }
+}
