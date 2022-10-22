@@ -67,6 +67,10 @@ h6 {
     font-size: 0.7em;
 }
 
+p{
+    text-align: justify;
+    font-size: 0.8em;
+}
 .container-fluid {
     padding: 0;
 }

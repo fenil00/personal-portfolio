@@ -11,13 +11,22 @@ const sts = document.querySelector(".sts");
 const stats = document.querySelector("#stats");
 const fenildesai = document.querySelector("#fenildesai");
 
-// about.style.display = "none";
-// resume.style.display = "none";
-// projects.style.display = "none";
-// contact.style.display = "none";
-// stats.style.display = "none";
-// fenildesai.style.display = "flex";
-
+$(function() {
+    about.style.display = "none";
+    resume.style.display = "none";
+    projects.style.display = "none";
+    contact.style.display = "none";
+    stats.style.display = "none";
+    fenildesai.style.display = "none";
+    
+    var lastTab = localStorage.getItem('lastTab');
+    const y = document.querySelector(lastTab);
+    y.style.display  = "flex";
+    let filename = lastTab.toString().slice(1);
+    let page = "pages/" + filename+ ".html";
+    $(y).load(page);
+});
+  
 me.addEventListener('click', function(){
     about.style.display = "none";
     resume.style.display = "none";
@@ -25,6 +34,10 @@ me.addEventListener('click', function(){
     contact.style.display = "none";
     stats.style.display = "none";
     fenildesai.style.display = "flex";
+    $('#fenildesai').load("pages/fenildesai.html");
+    localStorage.setItem('lastTab', $(me).attr('href'));
+
+
 });
 
 abt.addEventListener('click', function(){
@@ -33,10 +46,10 @@ abt.addEventListener('click', function(){
     projects.style.display = "none";
     contact.style.display = "none";
     stats.style.display = "none";
-    fenildesai.style.display = "none";
-        //jquery code goes here....        
-        let x = $('#about').load("pages/me.html");
-        console.log(x);
+    fenildesai.style.display = "none";  
+    $('#about').load("pages/about.html");
+    localStorage.setItem('lastTab', $(abt).attr('href'));
+
 });
 
 rsm.addEventListener('click', function(){
@@ -46,6 +59,9 @@ rsm.addEventListener('click', function(){
     contact.style.display = "none";
     stats.style.display = "none";
     fenildesai.style.display = "none";
+    $('#resume').load("pages/resume.html");
+    localStorage.setItem('lastTab', $(rsm).attr('href'));
+
 });
 
 pjs.addEventListener('click', function(){
@@ -55,6 +71,8 @@ pjs.addEventListener('click', function(){
     contact.style.display = "none";
     stats.style.display = "none";
     fenildesai.style.display = "none";
+    $('#projects').load("pages/projects.html");
+    localStorage.setItem('lastTab', $(pjs).attr('href'));
 });
 
 sts.addEventListener('click', function(){
@@ -64,6 +82,8 @@ sts.addEventListener('click', function(){
     contact.style.display = "none";
     stats.style.display = "flex";
     fenildesai.style.display = "none";
+    $('#stats').load("pages/stats.html");
+    localStorage.setItem('lastTab', $(sts).attr('href'));
 });
 
 cnt.addEventListener('click', function(){
@@ -73,4 +93,6 @@ cnt.addEventListener('click', function(){
     contact.style.display = "flex";
     stats.style.display = "none";
     fenildesai.style.display = "none";
+    $('#contact').load("pages/contact.html");
+    localStorage.setItem('lastTab', $(cnt).attr('href'));
 });
