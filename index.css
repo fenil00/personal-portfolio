@@ -106,6 +106,12 @@ svg:hover, .icons:hover {
 	border-radius: 50%;
 }
 
+.blurb {
+    border-top: 1px solid;
+    border-color: #3c3b3b;
+    margin:2em 0 0 0;
+    padding:2em 0 0 0;
+}
 .blurb p, .intro p{
     text-align: justify;
     font-size: 0.8em;
