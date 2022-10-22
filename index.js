@@ -18,8 +18,11 @@ $(function() {
     contact.style.display = "none";
     stats.style.display = "none";
     fenildesai.style.display = "none";
-    
+
     var lastTab = localStorage.getItem('lastTab');
+    if(lastTab == null){
+        lastTab = "#fenildesai";
+    }
     const y = document.querySelector(lastTab);
     y.style.display  = "flex";
     let filename = lastTab.toString().slice(1);
