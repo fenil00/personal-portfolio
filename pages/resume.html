@@ -5,12 +5,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="resume.css" rel="stylesheet">
 </head>
 <body>
     <div class="card-header">
-        <h2 >Resume</h2>
+        <h2>Resume</h2>
+        <ul class="nav" id="resumeNavbar">
+            <li class="nav-item">
+              <h3><a class="nav-link" href="#education">Education</a></h3>
+            </li>
+            <li class="nav-item">
+              <h3><a class="nav-link" href="#experience">Experience</a></h3>
+            </li>
+            <li class="nav-item">
+              <h3><a class="nav-link" href="#skills">Skills</a></h3>
+            </li>
+            <li class="nav-item">
+                <h3><a class="nav-link" href="#">Courses</a></h3>
+            </li>
+            <li class="nav-item">
+                <h3><a class="nav-link" href="#">References</a></h3>
+            </li>
+        </ul>
       </div>
-      <div class="card-body">
+      <div class="card-body" id="resume-body">
+        <div id="education" >
+            <h3>Education</h3>
+            <article class="degree">
+                <h4>M.ENG. Electrical Engineering and Embedded Systems</h4>
+                <h4><a href="https://www.rwu.de/en"> Hochschule Ravensburg-Weingarten University of Applied Sciences</a>, 2020 (German grade 1,9)</h4>
+            </article>
+            <article class="degree">
+                <h4>B.ENG. Electrical Engineering and Information Technology</h4>
+                <h4><a href="https://www.rwu.de/en"> Hochschule Ravensburg-Weingarten University of Applied Sciences</a>, 2018 (German grade 2,5)</h4>
+            </article>
+        </div>
+        <div id="experience" >
+            <h3>Experience</h3>
+            <article class="job-container">
+                <header>
+                    <h4><a href="https://www.schulergroup.com/">Schuler Pressen GmbH, Heßdorf</a> - Software engineer</h4>
+                    <p class="daterange">March 2020 - Present</p>
+                </header>
+                <ul>
+                    <li>.Net developer</li>
+                </ul>
+            </article>
+            <article class="job-container">
+                <header>
+                    <h4><a href="https://www.schulergroup.com/">Schuler Pressen GmbH, Weingarten</a> - Master Thesis</h4>
+                    <p class="daterange">September 2019 - February 2020</p>
+                </header>
+                    <ul>
+                        <li>Development of a die cushion controller based on Matlab/Simulink </li>
+                        <li>Technology : Matlab/Simulink, PLC Programming TwinCAT 3 & TIA Portal. </li>
+                    </ul>
+            </article>
+            <article class="job-container">
+                <header>
+                    <h4><a href="https://www.schulergroup.com/">Schuler Pressen GmbH, Weingarten</a> - Working Student</h4>
+                    <p class="daterange">Oktober 2018 - August 2019</p>
+                </header>
+                    <ul>
+                        <li>In the visualization area in the Industry division </li>
+                        <li>Technologie: C#, .NET Framework, Visual Studio, SQL Server</li>
+                    </ul>
+            </article>
+            <article class="job-container">
+                <header>
+                    <h4><a href="https://www.schulergroup.com/">Schuler Pressen GmbH, Weingarten</a> - Bachelor Thesis</h4>
+                    <p class="daterange">March 2018 - August 2018</p>
+                </header>
+                    <ul>
+                        <li>Development of a graphical parameter configurator </li>
+                        <li>Technologie: C#, .NET Framework, Visual Studio</li>
+                    </ul>
+            </article>
+            <article class="job-container">
+                <header>
+                    <h4><a href="https://www.liebherr.com/de/deu/%C3%BCber-liebherr/liebherr-weltweit/deutschland/lindenberg/aerospace-lindenberg.html">Liebherr-Aerospace Lindenberg GmbH, Lindenberg im Allgäu</a> - Internship</h4>
+                    <p class="daterange">March 2017 - Feburary 2018</p>
+                </header>
+                    <ul>
+                        <li>In the area of electrical drives and hardware development</li>
+                        <li>In the area of environmental management</li>
+                    </ul>
+            </article>
+        </div>
+        <div id="skills" >
+            <h3>Skills</h3>
+        </div>
       </div>
 </body>
 </html>
