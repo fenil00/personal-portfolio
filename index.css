@@ -149,7 +149,11 @@ svg:hover, .icons:hover {
 }
 /* EndRegion : SideBar */
 
-/*Region : Fenildesai*/
+/* For All Nav Parts*/
+#fenildesai-body, #resume-body, #about-body, #contact-body{
+    margin: 2em;
+}
+
 .card-header{
     background: #ffffff;
     color: #3c3b3b;
@@ -166,83 +170,6 @@ svg:hover, .icons:hover {
     margin: 1em;
     text-align: justify;
 }
-/*EndRegion : Fenildesai*/
-
-/*Region : Contact */
-.contact a {
-    text-decoration: none;
-    border-bottom: dotted 1px rgba(160,160,160,0.65);
-    letter-spacing: 0.25em;
-}
-/* EndRegion : Contact */
-
-/*Region : Resume */
-#resumeNavbar a{
-    color: #3c3b3b;
-    padding-left: 0;
-}
-
-#resumeNavbar a:hover{
-    color: #2e59ba;
-}
-
-#resume-body h3{
-   margin-bottom: 1em;
-}
-
-#resume-body div, #about-body div {
-    margin: 2em;
-}
-
-.degree{
-    margin-bottom: 1em;
-}
-.degree h4{
-    letter-spacing: normal;
-    letter-spacing: .16em;
-    margin-bottom: 0.1em;
-    text-transform: none;
-    font-weight: 400;
-}
-.degree a{
-    text-decoration: none;
-    border-bottom: dotted 1px rgba(160,160,160,0.65);
-    letter-spacing: 0.25em;
-}
-
-.degree a:hover{
-    color: #2e59ba;
-}
-
-.daterange {
-    font-family: Raleway,Helvetica,sans-serif;
-    font-size: .7em;
-    font-weight: 400;
-    letter-spacing: .25em;
-    line-height: 2.5;
-    margin-top: -1em;
-    text-transform: uppercase;
-}
-
-#experience ul{
-    padding-left: 1rem;
-    padding-top: 0;
-    margin-top: -0.7em;
-    margin-bottom: 2em;
-}
-
-.job-container a {
-    text-decoration: none;
-    color: #3c3b3b;
-}
-
-.job-container a:hover {
-    color: #2e59ba;
-}
-.job-container p{
-    color: #3c3b3b;
-}
-/* EndRegion : Resume */
 
 @media (max-width: 600px) {
     .row {

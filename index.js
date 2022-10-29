@@ -29,7 +29,8 @@ $(function() {
     let page = "pages/" + filename+ ".html";
     $(y).load(page);
 });
-  
+
+
 me.addEventListener('click', function(){
     about.style.display = "none";
     resume.style.display = "none";

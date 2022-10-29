@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery-3.6.1.js"></script>
     <title>Document</title>
-    <link href="resume.css" rel="stylesheet">
+    <link href="pages/resume.css" rel="stylesheet">
 </head>
 <body>
     <div class="card-header">
@@ -92,9 +93,176 @@
                     </ul>
             </article>
         </div>
+        <div id="awards">
+            <h3>AWARD & HONORS</h3>
+            <article class="job-container">
+                <header>
+                    <h4><a href="https://www.daad.de/de/der-daad/was-wir-tun/preise-auszeichnungen/daad-preis/">DAAD PREIS</a> - German Academic Exchange Service </h4>
+                    <p class="daterange">November 2019</p>
+                </header>
+                    <ul>
+                        <li>For culturally and academically outstanding achievments</li>
+                    </ul>
+            </article>
+        </div>
         <div id="skills" >
             <h3>Skills</h3>
+            <ul class="nav nav-pills flex-column flex-sm-row" id="pills-tab" role="tablist">
+                <li class="flex-sm-fill text-sm-center nav-item" role="presentation">
+                  <button class="btn active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#all" type="button" role="tab" aria-controls="pills-all" aria-selected="true"><h4>All</h4></button>
+                </li>
+                <li class="flex-sm-fill text-sm-center nav-item" role="presentation">
+                  <button class="btn" id="pills-programming-tab" data-bs-toggle="pill" data-bs-target="#programming" type="button" role="tab" aria-controls="pills-programming" aria-selected="false"><h4>Programming</h4></button>
+                </li>
+                <li class="flex-sm-fill text-sm-center nav-item" role="presentation">
+                  <button class="btn" id="pills-languages-tab" data-bs-toggle="pill" data-bs-target="#languages" type="button" role="tab" aria-controls="pills-languages" aria-selected="false"><h4>Languages</h4></button>
+                </li>
+                <li class="flex-sm-fill text-sm-center nav-item" role="presentation">
+                  <button class="btn" id="pills-tools-tab" data-bs-toggle="pill" data-bs-target="#tools" type="button" role="tab" aria-controls="pills-tools" aria-selected="false"><h4>Tools</h4></button>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="pills-all-tab" tabindex="0">
+                    <section id="all">
+                        <div class="skillbar"  >
+                            <div class="skillbar-title"><span>C#</span></div>
+                            <div class="skillbar-bar" data-width="4"></div>
+                            <div class="skill-bar-percent">4/5</div>
+                        </div>
+                    </section>
+                </div>
+                <div class="tab-pane fade" id="programming" role="tabpanel" aria-labelledby="pills-programming-tab" tabindex="0">
+                    <section id="programming">
+                        <div class="skillbar"  >
+                            <div class="skillbar-title"><span>C#</span></div>
+                            <div class="skillbar-bar" data-width="4"></div>
+                            <div class="skill-bar-percent">4/5</div>
+                        </div>
+                        <div class="skillbar"  >
+                            <div class="skillbar-title"><span>VB Script</span></div>
+                            <div class="skillbar-bar" data-width="2"></div>
+                            <div class="skill-bar-percent">2/5</div>
+                        </div>
+                        <div class="skillbar"  >
+                            <div class="skillbar-title"><span>C</span></div>
+                            <div class="skillbar-bar" data-width="2"></div>
+                            <div class="skill-bar-percent">2/5</div>
+                        </div>
+                        <div class="skillbar"  >
+                            <div class="skillbar-title"><span>Html+CSS</span></div>
+                            <div class="skillbar-bar" data-width="3"></div>
+                            <div class="skill-bar-percent">3/5</div>
+                        </div>
+                        <div class="skillbar"  >
+                            <div class="skillbar-title"><span>Java Script</span></div>
+                            <div class="skillbar-bar" data-width="3"></div>
+                            <div class="skill-bar-percent">3/5</div>
+                        </div>
+                        <div class="skillbar"  >
+                            <div class="skillbar-title"><span>Python</span></div>
+                            <div class="skillbar-bar" data-width="2"></div>
+                            <div class="skill-bar-percent">2/5</div>
+                        </div>
+                        <div class="skillbar"  >
+                            <div class="skillbar-title"><span>MATLAB</span></div>
+                            <div class="skillbar-bar" data-width="2"></div>
+                            <div class="skill-bar-percent">2/5</div>
+                        </div>
+                    </section>
+                </div>
+                <div class="tab-pane fade" id="languages" role="tabpanel" aria-labelledby="pills-languages-tab" tabindex="0">
+                    <section id="languages">
+                        <div class="skillbar"  >
+                            <div class="skillbar-title"><span>German</span></div>
+                            <div class="skillbar-bar" data-width="3"></div>
+                            <div class="skill-bar-percent">3/5</div>
+                        </div>
+                        <div class="skillbar"  >
+                            <div class="skillbar-title"><span>English</span></div>
+                            <div class="skillbar-bar" data-width="4"></div>
+                            <div class="skill-bar-percent">4/5</div>
+                        </div>
+                        <div class="skillbar"  >
+                            <div class="skillbar-title"><span>Hindi</span></div>
+                            <div class="skillbar-bar" data-width="5"></div>
+                            <div class="skill-bar-percent">5/5</div>
+                        </div>
+                        <div class="skillbar"  >
+                            <div class="skillbar-title"><span>Gujarati</span></div>
+                            <div class="skillbar-bar" data-width="5"></div>
+                            <div class="skill-bar-percent">5/5</div>
+                        </div>
+                    </section>
+                </div>
+                <div class="tab-pane fade" id="tools" role="tabpanel" aria-labelledby="pills-tools-tab" tabindex="0">
+                    <section id="tools">
+                        <div class="skillbar"  >
+                            <div class="skillbar-title"><span>Git</span></div>
+                            <div class="skillbar-bar" data-width="3"></div>
+                            <div class="skill-bar-percent">3/5</div>
+                        </div>
+                        <div class="skillbar"  >
+                            <div class="skillbar-title"><span>Postman</span></div>
+                            <div class="skillbar-bar" data-width="3"></div>
+                            <div class="skill-bar-percent">3/5</div>
+                        </div>
+                        <div class="skillbar"  >
+                            <div class="skillbar-title"><span>VMWare</span></div>
+                            <div class="skillbar-bar" data-width="2"></div>
+                            <div class="skill-bar-percent">2/5</div>
+                        </div>
+                        <div class="skillbar"  >
+                            <div class="skillbar-title"><span>Siemens TIA Portal + Beckhoff TwinCAT 3</span></div>
+                            <div class="skillbar-bar" data-width="2"></div>
+                            <div class="skill-bar-percent">2/5</div>
+                        </div>
+                        <div class="skillbar"  >
+                            <div class="skillbar-title"><span>Visual Studio + VS Code + GitLab</span></div>
+                            <div class="skillbar-bar" data-width="3"></div>
+                            <div class="skill-bar-percent">3/5</div>
+                        </div>
+                        <div class="skillbar"  >
+                            <div class="skillbar-title"><span>ZSH</span></div>
+                            <div class="skillbar-bar" data-width="2"></div>
+                            <div class="skill-bar-percent">2/5</div>
+                        </div>
+                    </section>
+                    <section id="Web Development">
+                        <div class="skillbar"  >
+                            <div class="skillbar-title"><span>Git</span></div>
+                            <div class="skillbar-bar" data-width="3"></div>
+                            <div class="skill-bar-percent">3/5</div>
+                        </div>
+                        <div class="skillbar"  >
+                            <div class="skillbar-title"><span>Postman</span></div>
+                            <div class="skillbar-bar" data-width="3"></div>
+                            <div class="skill-bar-percent">3/5</div>
+                        </div>
+                        <div class="skillbar"  >
+                            <div class="skillbar-title"><span>VMWare</span></div>
+                            <div class="skillbar-bar" data-width="2"></div>
+                            <div class="skill-bar-percent">2/5</div>
+                        </div>
+                        <div class="skillbar"  >
+                            <div class="skillbar-title"><span>Siemens TIA Portal + Beckhoff TwinCAT 3</span></div>
+                            <div class="skillbar-bar" data-width="2"></div>
+                            <div class="skill-bar-percent">2/5</div>
+                        </div>
+                        <div class="skillbar"  >
+                            <div class="skillbar-title"><span>Visual Studio + VS Code + GitLab</span></div>
+                            <div class="skillbar-bar" data-width="3"></div>
+                            <div class="skill-bar-percent">3/5</div>
+                        </div>
+                        <div class="skillbar"  >
+                            <div class="skillbar-title"><span>ZSH</span></div>
+                            <div class="skillbar-bar" data-width="2"></div>
+                            <div class="skill-bar-percent">2/5</div>
+                        </div>
+                    </section>
+                </div>
+            </div>
         </div>
       </div>
+      <script src="pages/resume.js"></script>
 </body>
 </html>
