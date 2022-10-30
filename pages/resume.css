@@ -9,9 +9,11 @@
 }
 
 #resume-body h3{
+    margin-top: 2em;
    margin-bottom: 2em;
    text-align: center;
 }
+
 
 .degree{
     margin-bottom: 1em;
@@ -34,7 +36,7 @@
 }
 
 .daterange {
-    font-family: Raleway,Helvetica,sans-serif;
+    font-family: "Raleway",Helvetica,sans-serif;
     font-size: .7em;
     font-weight: 400;
     letter-spacing: .25em;
@@ -131,4 +133,28 @@
     background: rgb(105, 104, 179);
 }
 
+#courses {
+    padding-top: 1.6em;
+    text-align: center;
+}
+
+#courses h4 {
+    padding-top: 1.6em;
+}
+.course-list {
+    display: block;
+}
+
+#courses a, .course-container ,.course-number ,.course-name, .course-dot{
+    display: inline;
+}
+
+#courses a {
+    text-decoration: none;
+    border-bottom: dotted 1px rgba(160,160,160,0.65);
+}
+#courses ul li {
+    list-style-type: none;
+}
+  
 /* EndRegion : Resume */
