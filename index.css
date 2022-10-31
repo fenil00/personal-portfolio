@@ -172,8 +172,32 @@ svg:hover, .icons:hover {
 }
 
 @media (max-width: 600px) {
+    
     .row {
         flex-direction: column-reverse;
-    
+        font-size: 12pt;
     }
+
+    #fenildesai-body, #resume-body, #about-body, #contact-body{
+        margin: 0
+    }
+
+    .card-header{
+        padding: 1em;
+    }
+
+    .card-header h2, .card-header li {
+        text-align: center;
+    }
+
+    .card-header .nav {
+       display: flex;
+       flex-direction: row;
+      justify-content: space-evenly;
+    }
+
+    .card {
+        margin: 0;
+    }
+
 }
