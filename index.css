@@ -45,7 +45,7 @@ h1,h2,h3,h4,h5,h6 {
     text-transform: uppercase;
 }
 h1 {
-    font-size: 1.5em;
+    font-size: 1.6em;
 }
 
 h2 {
@@ -104,19 +104,25 @@ svg:hover, .icons:hover {
     box-sizing: border-box;
 }
 
+.intro h1 {
+    letter-spacing: 0.5em;
+}
+
 .intro a {
     text-decoration: none;
     border-bottom: dotted 1px rgba(160,160,160,0.65);
-    letter-spacing: 0.25em;
+    letter-spacing: 0.5em;
 }
 .img-fluid {
 	width: 10em;
 	border-radius: 50%;
+    margin-bottom: 1em;
 }
 
 .blurb p, .intro p{
     text-align: justify;
     font-size: 0.8em;
+    word-wrap: break-word;
 }
 
 .blurbabout {
@@ -176,6 +182,12 @@ svg:hover, .icons:hover {
     .row {
         flex-direction: column-reverse;
         font-size: 12pt;
+    }
+
+    .intro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     #fenildesai-body, #resume-body, #about-body, #contact-body{
