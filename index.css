@@ -4,7 +4,7 @@ body {
     font-size: 14pt;
     box-sizing: border-box;
     color: #646464;
-    /*line-height: 1.75;*/
+    line-height: 1.75;
 }
 
 /* Region : NavBar */
@@ -156,7 +156,7 @@ svg:hover, .icons:hover {
 /* EndRegion : SideBar */
 
 /* For All Nav Parts*/
-#fenildesai-body, #resume-body, #about-body, #contact-body{
+#fenildesai-body, #resume-body, #about-body, #contact-body, #stats-body{
     margin: 2em
 }
 
@@ -201,7 +201,7 @@ svg:hover, .icons:hover {
         align-items: center;
     }
 
-    #fenildesai-body, #resume-body, #about-body, #contact-body{
+    #fenildesai-body, #resume-body, #about-body, #contact-body,#stats-body{
         margin: 0
     }
 

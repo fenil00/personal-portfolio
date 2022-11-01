@@ -1,0 +1,9 @@
+.table td {
+    color: #646464 !important;
+    font-size: 0.9em;
+}
+
+.table a {
+    text-decoration: none;
+    border-bottom: dotted 1px rgba(160,160,160,0.65);
+}
