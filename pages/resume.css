@@ -72,6 +72,11 @@
     margin-bottom: 0;
 }
 
+#skills .flex-column {
+    flex-direction: row !important;
+    justify-content: center;
+}
+
 .skillbar {
 	position:relative;
 	display:block;
