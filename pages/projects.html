@@ -1,18 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="pages/projects.css" rel="stylesheet">
 </head>
+
 <body>
     <div class="card-header">
-        <h2 >Projects</h2>
+        <h2>Projects</h2>
         <p>A SELECTION OF PROJECTS THAT I'M NOT TOO ASHAMED OF</p>
-      </div>
-      <div class="card-body">
-        
-      </div>
+    </div>
+    <div class="card-body" id="projects-body">
+        <div class="card text-center">
+            <div class="card-header">
+                Featured
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+            <div class="card-footer text-muted">
+                2 days ago
+            </div>
+        </div>
+        <div class="card text-center">
+            <div class="card-header" id="project-header">
+               <h3>Masterthesis</h3>
+               <p>Conception and development of a die
+                cushion model for virtual commissioning
+                based on Matlab/Simulink</p>
+            </div>
+            <div class="card-body" id="simulink">
+                <p>For demanding jobs in bodywork, hydraulic drawing equipment is increasingly being used in
+                    mechanical presses as well. The advantage of hydraulic pulling devices over pneumatic systems
+                    lies in the exact adjustability of the holding force. Proportional or servo valves allow a
+                    sensitive adjustment to the different drawn parts and, if necessary, a drawing process with different
+                    holding forces.</p>
+                <p>The technique of the multi-point die cushion is based on the fact that several cylinders are
+                    arranged under the pressure cheek, which can be programmed to different holding force. The
+                    different counter-holding force causes the pressure cheek and die cushion plate holder to change
+                    their parallel position and thus also the blank holder force between upper tool and blank holder.</p>
+                    <figure>
+                        <img src="imgs/SingleActionMechanicalPress.png" >
+                        <figcaption>Single-action mechanical press with draw cushion</figcaption>
+                    </figure>
+                <p>If the pressure is increased on a counter-holding cylinder, the blank holder force increases
+                    less material flow in the mold. If the pressure is reduced, however, more material flows into the
+                    mold.</p>
+                <p>Hardware-in-the-loop simulation model for a one-point hydraulic drawing cushion is to be modeled as part of the final work. The controlled system is to be modeled and has
+                    a real-time capability Interface to the TwinCAT III controller (position and pressure control).</p>
+                <p>With the help of a simulation model, drawing cushions can be put into virtual operation in
+                    the future. By the virtual commissioning, design errors can be detected early and corrected.</p>
+                    <figure>
+                        <img src="imgs/SubSystemVentilZylinder.png">
+                        <figcaption>Simulation model of drawing cushion</figcaption>
+                    </figure>
+                
+            </div>
+            <div class="card-footer text-muted">
+                REFERENCES ARE AVAILABLE UPON REQUEST
+            </div>
+        </div>
+    </div>
+    </div>
 </body>
+
 </html>

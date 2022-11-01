@@ -156,7 +156,7 @@ svg:hover, .icons:hover {
 /* EndRegion : SideBar */
 
 /* For All Nav Parts*/
-#fenildesai-body, #resume-body, #about-body, #contact-body, #stats-body{
+#fenildesai-body, #resume-body, #about-body, #contact-body, #stats-body, #projects-body{
     margin: 2em
 }
 
@@ -201,7 +201,7 @@ svg:hover, .icons:hover {
         align-items: center;
     }
 
-    #fenildesai-body, #resume-body, #about-body, #contact-body,#stats-body{
+    #fenildesai-body, #resume-body, #about-body, #contact-body,#stats-body, #projects-body{
         margin: 0
     }
 
