@@ -105,18 +105,20 @@ svg:hover, .icons:hover {
 }
 
 .intro h1 {
-    letter-spacing: 0.5em;
+    letter-spacing: 0.35em; 
 }
 
 .intro a {
     text-decoration: none;
     border-bottom: dotted 1px rgba(160,160,160,0.65);
-    letter-spacing: 0.5em;
-}
+    letter-spacing: 0.35em;
+} 
 .img-fluid {
 	width: 10em;
 	border-radius: 50%;
     margin-bottom: 1em;
+    max-width:100%;
+    max-height:100%;
 }
 
 .blurb p, .intro p{
