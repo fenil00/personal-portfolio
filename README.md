@@ -1,2 +1,6 @@
 # personal-portfolio
-This is for my personal developer portfolio website.
+This is my personal developer portfolio website. 
+
+fenil00.github.io/personal-portfolio/
+
+Design based on : https://github.com/mldangelo/personal-site 
