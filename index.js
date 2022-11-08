@@ -1,4 +1,4 @@
-const me = document.querySelector(".navbar-brand");
+/* const me = document.querySelector(".navbar-brand");
 const abt = document.querySelector(".abt");
 const about = document.querySelector("#about");
 const rsm = document.querySelector(".rsm");
@@ -45,14 +45,14 @@ me.addEventListener('click', function(){
 });
 
 abt.addEventListener('click', function(){
-    about.style.display = "flex";
+     about.style.display = "flex";
     resume.style.display = "none";
     projects.style.display = "none";
     contact.style.display = "none";
     stats.style.display = "none";
     fenildesai.style.display = "none";  
     $('#about').load("pages/about.html");
-    localStorage.setItem('lastTab', $(abt).attr('href'));
+    localStorage.setItem('lastTab', $(abt).attr('href')); 
 
 });
 
@@ -99,4 +99,4 @@ cnt.addEventListener('click', function(){
     fenildesai.style.display = "none";
     $('#contact').load("pages/contact.html");
     localStorage.setItem('lastTab', $(cnt).attr('href'));
-});
+}); */
