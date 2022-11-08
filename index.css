@@ -136,6 +136,35 @@ svg:hover, .icons:hover {
     padding-bottom: 2em;
 }
 
+.actions {
+    cursor: default;
+    list-style: none;
+    padding-left: 0;
+}
+
+.actions #actionsButton{
+        appearance: none;
+        background-color: transparent;
+        border: 0;
+        box-shadow: inset 0 0 0 1px hsl(0deg 0% 63% / 30%);
+        color: #3c3b3b!important;
+        cursor: pointer;
+        display: inline-block;
+        font-family: Raleway,Helvetica,sans-serif;
+        font-size: .6em;
+        font-weight: 800;
+        height: 4.8125em;
+        letter-spacing: .25em;
+        line-height: 4.8125em;
+        padding: 0 2.5em;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: background-color .2s ease,box-shadow .2s ease,color .2s ease;
+        white-space: nowrap;
+        border-bottom: none!important;
+}
+
 .blurb svg  {
     margin: 0 1em 1em 0;
     fill: #aaaaaa;
