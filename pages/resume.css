@@ -162,6 +162,9 @@
 #courses ul li {
     list-style-type: none;
 }
+#references a {
+    text-decoration: none;
+}
 
 /* EndRegion : Resume */
 
